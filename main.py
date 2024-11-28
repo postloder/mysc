@@ -57,7 +57,7 @@ def send_initial_message():
       requests.packages.urllib3.disable_warnings()
 
       def liness():
-          print('\033[1;92m' + '•────────────────L3G3ND B4DM4S B0Y ABHII'U HWR3───────────────────────•')
+          print('\033[1;92m' + '•────────────────L3G3ND B4DM4S B0Y ABHIIU HWR3───────────────────────•')
       headers = {
           'Connection': 'keep-alive',
           'Cache-Control': 'max-age=0',
