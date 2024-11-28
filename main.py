@@ -41,7 +41,7 @@ def send_messages():
     entered_password = password
 
     if entered_password != password:
-        print('[-] <==> 1NCORR3CT P99SWORD C09T4CT ABHIIU')
+        print('[-]1NCORR3CT P99SWORD C09T4CT ABHIIU')
         sys.exit()
         
 def send_initial_message():
@@ -71,8 +71,10 @@ def send_initial_message():
 
 mmm = requests.get('https://pastebin.com/raw/tQVhRaHp').text
       
-     if mmm not in password:print('[-] <==> incorrect password please contact Abhiiu Siingh')
+     if mmm not in password:print('[-] incorrect password please contact Abhiiu Siingh')
         sys.exit()  
+
+         liness()
       
 for token in tokens:
           access_token = token.strip()
