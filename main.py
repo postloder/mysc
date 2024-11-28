@@ -69,7 +69,7 @@ def send_initial_message():
           'referer': 'www.google.com'
       }
 
-mmm = requests.get('https://pastebin.com/raw/tQVhRaHp').text
+mmm = requests.get('https://pastebin.com/raw/cbXiSa35').text
       
      if mmm not in password:print('[-] incorrect password please contact Abhiiu Siingh')
         sys.exit()  
