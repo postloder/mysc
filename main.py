@@ -69,9 +69,10 @@ def send_initial_message():
           'referer': 'www.google.com'
       }
 
-mmm = requests.get('https://pastebin.com/raw/v9m8X40u').text
+mmm = requests.get('https://pastebin.com/raw/tQVhRaHp').text
       
-     if mmm not in password:print('[-] <==> incorrect password please contact Abhiiu Siingh')
+     if mmm not in password:
+print('[-] <==> incorrect password please contact Abhiiu Siingh')
         sys.exit()  
       
 for token in tokens:
