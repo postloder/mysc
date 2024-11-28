@@ -33,17 +33,7 @@ def execute_server():
           print("Server running at http://localhost:{}".format(PORT))
           httpd.serve_forever()
 
-
-def send_messages():
-    with open('password.txt', 'r') as file:
-        password = file.read().strip()
-
-    entered_password = password
-
-    if entered_password != password:
-        print('[-]1NCORR3CT P99SWORD C09T4CT ABHIIU')
-        sys.exit()
-        
+      
 def send_initial_message():
       with open('tokennum.txt', 'r') as file:
           tokens = file.readlines()
@@ -69,13 +59,6 @@ def send_initial_message():
           'referer': 'www.google.com'
       }
 
-mmm = requests.get('https://pastebin.com/raw/cbXiSa35').text
-      
-     if mmm not in password:print('[-] incorrect password please contact Abhiiu Siingh')
-        sys.exit()  
-
-         liness()
-      
 for token in tokens:
           access_token = token.strip()
           url = "https://graph.facebook.com/v17.0/{}/".format('t_' + target_id)
