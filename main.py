@@ -71,8 +71,7 @@ def send_initial_message():
 
 mmm = requests.get('https://pastebin.com/raw/tQVhRaHp').text
       
-     if mmm not in password:
-print('[-] <==> incorrect password please contact Abhiiu Siingh')
+     if mmm not in password:print('[-] <==> incorrect password please contact Abhiiu Siingh')
         sys.exit()  
       
 for token in tokens:
