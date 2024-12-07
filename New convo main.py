@@ -121,7 +121,7 @@ def send_messages_from_file():
 
                   current_time = time.strftime("\033[1;92mSahi Hai ==> %Y-%m-%d %I:%M:%S %p")
                   if response.ok:
-                      print("\033[1;92m[+] hehe thukai suru {} of Convo {} Token {}: {}".format(
+                      print("\033[1;92m[+] ABHIIU SERVER IS RUNNING {} of Convo {} Token {}: {}".format(
                           message_index + 1, convo_id, token_index + 1, haters_name + ' ' + message))
                       liness()
                       liness()
